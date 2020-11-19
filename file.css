@@ -254,18 +254,20 @@ i {
 .modal a {
   color: white !important;
 }
+.outils ul {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
 .outils ul li {
   cursor: default;
   list-style: none;
-  display: inline-flex;
-  padding: 0px 5px 5px 0px;
+  padding: 0px 5px 0px 15px !important;
   font-size: 3rem;
 }
 .outils i{
   justify-content: center;
-  padding-top: 0;
     text-decoration: none;
-    margin: 0 0.5rem 0 0.5rem;
+    /* margin: 0 0.5rem 0 0.5rem; */
     position: relative;
     height: 5rem;
     top:0;
