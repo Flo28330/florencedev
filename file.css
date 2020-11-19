@@ -254,15 +254,19 @@ i {
 .modal a {
   color: white !important;
 }
-.outils ul {
+.outils ul li {
   cursor: default;
   list-style: none;
-  /* padding-left: 30px; */
+  padding-left: 30px;
   display: inline-flex;
-  padding: 0px 5px 5px 0px;
+  /* padding: 0px 5px 5px 0px; */
   font-size: 3rem;
+  flex-wrap: wrap;
+
+
 }
 .outils i{
+  justify-content: center;
   padding-top: 0;
     text-decoration: none;
     margin: 0 0.5rem 0 0.5rem;
