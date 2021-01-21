@@ -38,7 +38,7 @@ Accéder au serveur de developpement sur `http://localhost:9000`.
 
 ### Compiler le projet pour la production
 ```
-npm run build
+npm run build & npm run deploy
 ```
 
 Les fichiers compilés sont situés dans le dossier `dist`.
